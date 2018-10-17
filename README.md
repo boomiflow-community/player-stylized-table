@@ -4,4 +4,4 @@ A player that includes a nice bit of table style from Matt Norton. It also inclu
 var copyComponent = function() {
    return React.createElement('span', { className: "glyphicon glyph-lg glyphicon glyphicon-home", style: { color: 'blue' } });
 };
-manywho.component.register('copy-component',
+manywho.component.register('copy-component', copyComponent);
